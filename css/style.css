@@ -74,6 +74,31 @@ h1 { font-size:clamp(2.2rem,3.8vw,3.2rem); line-height:1.05; margin:30px 0 0; fo
 
 .story-meta { color:var(--muted); font-size:.95rem; margin-bottom:36px; }
 
+/* ---------- Pages de contes ---------- */
+
+.story-subtitle{
+    margin: -20px 0 35px;
+    text-align: center;
+    color: var(--muted);
+    font-style: italic;
+    font-size: 1.05rem;
+}
+
+.story-image{
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.story-image img{
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+
+    border: 1px solid var(--line);
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
 .site-footer { max-width:1100px; margin:0 auto; padding:28px 24px 44px; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
 @media (max-width:760px) {
   .site-header { display:block; }
