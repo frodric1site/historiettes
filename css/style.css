@@ -63,12 +63,21 @@ h1 { font-size:clamp(2.2rem,3.8vw,3.2rem); line-height:1.05; margin:30px 0 0; fo
 .list li { border-bottom:1px solid var(--line); }
 .list a { display:block; padding:14px 0; text-decoration:none; }
 .story { background:var(--paper); border:1px solid var(--line); padding:clamp(24px,5vw,56px); }
+
+/* ---------- Titres ---------- */
 .story h1 { font-size:clamp(2rem,4vw,3.2rem); }
 
 .story h1 {
     font-size: 2rem;
     line-height: 1.1;
     margin: 0 0 40px;
+    font-weight: normal;
+}
+
+.soustitre {
+    font-size: 1.7rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-weight: normal;
 }
 
@@ -105,6 +114,7 @@ h1 { font-size:clamp(2.2rem,3.8vw,3.2rem); line-height:1.05; margin:30px 0 0; fo
   nav { margin-top:14px; }
   .shelves { grid-template-columns:1fr; }
 }
+
 
 /* ---------- Formulaire ---------- */
 
