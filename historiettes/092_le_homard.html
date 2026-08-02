@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>092 — Le homard</title>
+  <title>092_Le homard</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -11,9 +11,9 @@
   <a class="brand" href="../index.html">Les historiettes de Frodric</a>
   <nav>
     <a href="../contes.html">Contes</a>
+    <a href="../questions.html">Questions</a>
     <a href="../historiettes.html">Réminiscences</a>
-    <a href="../questions.html">Réflexions</a>
-    <a href="../a-propos.html">À propos</a>>
+    <a href="../a-propos.html">À propos</a>
   </nav>
 </header>
 <main>
@@ -22,20 +22,116 @@
 <h1 class="story-title">Le homard</h1>
 
     <p> 
-Le petit garçon, ses parents et sa sœur étaient en vacances au bord de la mer.<br>
+Le petit garçon, ses parents et sa sœur étaient en vacances au bord de la mer.<br> 
 Il se promenait seul entre les rochers, observant les anémones et les chapeaux chinois, lorsqu’un cri attira son attention.<br>
-Il reconnut la voix de sa mère et la chercha du regard.<br>
+Il reconnut la voix de sa mère et, inquiet, la chercha du regard.<br>
 — Un homard ! Un homard !<br>
-Il la vit alors courir d’un rocher à l’autre, soulever des pierres, fouiller les flaques, poursuivant sa proie avec une agitation fébrile.<br>
-Puis, elle se jeta sans hésiter sur un couple de touristes allemands qui se trouvait là, arracha son épuisette des mains de l’homme, et repartit à la chasse.<br>
-Elle courait, criait, traquait sa proie avec une énergie presque sauvage.<br>
+Il la vit alors courir d’un rocher à l’autre, soulever des pierres, fouiller les flaques, poursuivre sa proie avec une agitation fébrile.<br>
+Puis, elle se jeta sur un couple de touristes allemands, arracha son épuisette des mains de l’homme, et repartit à la chasse.<br>
+Elle courait, glissait, criait avec une énergie presque sauvage.<br>
 Finalement, le homard lui échappa.<br>
-Sa mère revint alors vers les touristes et leur tendit leur épuisette.<br>
-Voyant leurs regards éberlués, elle leur répéta qu'il y avait un homard, comme si elle parlait à des abrutis et comme si cela justifiait tout ce qu'elle venait de faire.<br><br>
+Elle revint alors vers les touristes et leur tendit leur épuisette en grimaçant.<br>
+Devant leurs regards éberlués, elle maugréa :<br>
+— C'était un homard !<br><br>
 
 Frodric
-
 </p>
+
+<hr class="story-separator">
+
+<section class="echo-invitation">
+  <h2>Échos</h2>
+
+  <p>
+Si cette histoire vous inspire quelque chose, je serais heureux de vous lire.<br>
+Avec votre accord, votre histoire pourra être partagée ici.
+  </p>
+
+<form
+    class="echo-form"
+    action="https://formspree.io/f/mqerwkke"
+    method="POST">
+
+    <input
+    type="hidden"
+    name="_next"
+    value="https://frodric1site.github.io/merci.html">
+
+    <input
+        type="hidden"
+        name="histoire"
+        value="L'inconnue">
+
+    <textarea
+        id="message"
+        name="message"
+        rows="8"
+        required></textarea>
+
+    <label for="nom">
+  Prénom ou pseudonyme <span class="optional">(facultatif)</span>
+</label>
+
+<input
+  id="nom"
+  name="nom"
+  type="text"
+  maxlength="80">
+
+  <label for="email">
+Adresse courriel <span class="optional">(facultatif)</span>
+</label>
+
+<input
+    id="email"
+    name="email"
+    type="email"
+    maxlength="200">
+
+  <fieldset class="publication-choice">
+
+<legend>
+Que puis-je faire de votre histoire ?
+</legend>
+
+<label>
+<input
+type="radio"
+name="autorisation"
+value="Privée"
+checked>
+
+Je préfère qu'elle reste privée.
+</label>
+
+<label>
+<input
+type="radio"
+name="autorisation"
+value="Publication autorisée">
+
+Vous pouvez la publier sur le site.
+</label>
+
+<label>
+<input
+type="radio"
+name="autorisation"
+value="Me demander">
+
+Demandez-moi avant de la publier.
+</label>
+
+</fieldset>
+
+    <button type="submit">
+        Envoyer mon histoire
+    </button>
+
+</form>
+
+</section>
+
   </article>
 </main>
 <footer class="site-footer">

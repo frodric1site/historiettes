@@ -61,7 +61,7 @@ h1 { font-size:clamp(2.2rem,3.8vw,3.2rem); line-height:1.05; margin:30px 0 0; fo
 .page-title,.story { max-width:760px; margin:0 auto 32px; }
 .list { max-width:760px; margin:0 auto; padding:0; list-style:none; }
 .list li { border-bottom:1px solid var(--line); }
-.list a { display:block; padding:14px 0; text-decoration:none; }
+.list a { display:block; padding:4px 0; text-decoration:none; }
 .story { background:var(--paper); border:1px solid var(--line); padding:clamp(24px,5vw,56px); }
 
 /* ---------- Titres ---------- */
@@ -200,4 +200,63 @@ h1 { font-size:clamp(2.2rem,3.8vw,3.2rem); line-height:1.05; margin:30px 0 0; fo
     display:block;
     margin:12px 0;
     font-weight:normal;
+}
+
+/* ---------- Tableau besoins ---------- */
+.besoins{
+    width:100%;
+    max-width:900px;
+    margin:40px auto;
+    border-collapse:collapse;
+}
+
+.besoins th,
+.besoins td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+.besoins th{
+    background:#f6f6f6;
+}
+
+.besoins td:first-child{
+    text-align:left;
+    font-weight:500;
+}
+
+.besoins td:not(:first-child){
+    text-align:center;
+}
+
+input[type="radio"]{
+    transform:scale(1.4);
+    cursor:pointer;
+}
+
+/* ---------- lien suite questions ---------- */
+.suite{
+    text-align:center;
+    margin:50px 0;
+}
+
+.suite a{
+    color:#3b6fb6;
+    font-size:1em;
+    text-decoration:none;
+}
+
+.suite a:hover{
+    color:#244f90;
+    text-decoration:underline;
+}
+
+/* ---------- Liens questions ---------- */
+.rubrique{
+    margin-bottom:8px;
+}
+
+.sous-lien{
+    display:block;
+    margin:0px 0;
 }

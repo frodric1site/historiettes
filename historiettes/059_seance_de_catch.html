@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>059 — Séance de catch</title>
+  <title>059_Séance de catch</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
   <a class="brand" href="../index.html">Les historiettes de Frodric</a>
   <nav>
     <a href="../contes.html">Contes</a>
+    <a href="../questions.html">Questions</a>
     <a href="../historiettes.html">Réminiscences</a>
-    <a href="../questions.html">Réflexions</a>
     <a href="../a-propos.html">À propos</a>
   </nav>
 </header>
@@ -30,9 +30,104 @@ La violence, et surtout le silence de la scène le surprirent tellement qu’il 
 ou éclater de rire.<br>
 Après cela, lorsqu’il les voyait toutes les deux faire de grands raisonnements ou parler politique en famille ou entre amis, il ne pouvait s'empêcher de les revoir, à terre, agrippées l'une à l'autre.<br><br>
 
-Frodric<br><br>
-
+Frodric
 </p>
+
+<hr class="story-separator">
+
+<section class="echo-invitation">
+  <h2>Échos</h2>
+
+  <p>
+Si cette histoire vous inspire quelque chose, je serais heureux de vous lire.<br>
+Avec votre accord, votre histoire pourra être partagée ici.
+  </p>
+
+<form
+    class="echo-form"
+    action="https://formspree.io/f/mqerwkke"
+    method="POST">
+
+    <input
+    type="hidden"
+    name="_next"
+    value="https://frodric1site.github.io/merci.html">
+
+    <input
+        type="hidden"
+        name="histoire"
+        value="L'inconnue">
+
+    <textarea
+        id="message"
+        name="message"
+        rows="8"
+        required></textarea>
+
+    <label for="nom">
+  Prénom ou pseudonyme <span class="optional">(facultatif)</span>
+</label>
+
+<input
+  id="nom"
+  name="nom"
+  type="text"
+  maxlength="80">
+
+  <label for="email">
+Adresse courriel <span class="optional">(facultatif)</span>
+</label>
+
+<input
+    id="email"
+    name="email"
+    type="email"
+    maxlength="200">
+
+  <fieldset class="publication-choice">
+
+<legend>
+Que puis-je faire de votre histoire ?
+</legend>
+
+<label>
+<input
+type="radio"
+name="autorisation"
+value="Privée"
+checked>
+
+Je préfère qu'elle reste privée.
+</label>
+
+<label>
+<input
+type="radio"
+name="autorisation"
+value="Publication autorisée">
+
+Vous pouvez la publier sur le site.
+</label>
+
+<label>
+<input
+type="radio"
+name="autorisation"
+value="Me demander">
+
+Demandez-moi avant de la publier.
+</label>
+
+</fieldset>
+
+    <button type="submit">
+        Envoyer mon histoire
+    </button>
+
+</form>
+
+</section>
+
   </article>
 </main>
 <footer class="site-footer">
