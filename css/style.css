@@ -265,3 +265,12 @@ input[type="radio"]{
     display:block;
     margin:0px 0;
 }
+/* ---------- Lien secret Frodric ---------- */
+.secret-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.secret-link:hover {
+    text-decoration: underline;
+}
