@@ -288,3 +288,7 @@ input[type="radio"]{
 .lang-switch a:hover {
   text-decoration: underline;
 }
+
+.citation {
+    color: #8A4F3D;
+}
